@@ -301,6 +301,7 @@ main > .section {
 }
 
 main > .section > div {
+    color: red;
   max-width: 1200px;
   margin: auto;
   padding: 0 24px;
