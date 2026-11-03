@@ -1,0 +1,73 @@
+
+/* CTA section */
+.cta-container {
+  background: #12395b;
+  padding: 70px 24px;
+}
+
+/* CTA wrapper */
+.cta-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CTA content */
+.cta-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.cta-content h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+/* Description */
+.cta-content p {
+  color: #dce8f5;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 28px;
+}
+
+/* CTA button */
+.cta-button {
+  display: inline-block;
+  background: #ffffff;
+  color: #12395b;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+/* Hover */
+.cta-button:hover {
+  background: #e6f0fa;
+  transform: translateY(-3px);
+}
+
+/* Keyboard focus */
+.cta-button:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 4px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cta-container {
+    padding: 45px 20px;
+  }
+
+  .cta-content h2 {
+    font-size: 27px;
+  }
+
+  .cta-content p {
+    font-size: 15px;
+  }
+}

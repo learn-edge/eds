@@ -1,0 +1,78 @@
+
+/* SolutionHub - Benefits block */
+
+/* Main section */
+.benefit-container {
+  padding: 60px 24px;
+}
+
+/* Block width */
+.benefit-container .benefit.block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Benefits grid */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* Individual benefit card */
+.benefit-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* Benefit heading */
+.benefit-card h3 {
+  color: #12395b;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+
+/* Benefit description */
+.benefit-card p {
+  color: #526579;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Hover effect */
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .benefit-container {
+    padding: 40px 20px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .benefit-card {
+    padding: 24px;
+  }
+}
